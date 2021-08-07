@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int get_size_wo_dupls(char arr[], const int n);
+void get_bool_array(char arr[], const int n, bool bool_arr[], const int bool_n);
+void mark_char_as_false(char arr[], const int n, bool bool_arr[], const int bool_n);
+
+int main()
+{
+   return 0;
+}
+
+void mark_char_as_false(char arr[], const int n, bool bool_arr[], const int bool_n)
+{
+   for(int i = 0; i < n; i++)
+   {
+      char comparing_char = 0;
+   }
+}
