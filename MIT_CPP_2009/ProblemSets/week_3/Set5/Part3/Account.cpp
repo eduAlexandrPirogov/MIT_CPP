@@ -39,3 +39,40 @@ void Account::Output()
    cout << "Type: " << type << endl;
    cout << "Balance: " << balance << endl;
 };
+
+void Account::setAccNumber(long _acc_number)
+{
+   acc_number = _acc_number;
+};
+
+void Account::setName(std::string _name)
+{
+   name = _name;
+};
+
+void Account::setType(char _type)
+{
+   type = _type;
+};
+
+void Account::setBalance(double _balance)
+{
+   balance = _balance;
+};
+
+long Account::getAccNum()
+{
+   return this->acc_number;
+};
+
+string Account::getName()
+{
+   return name;
+};
+
+char Account::getType()
+{
+   return type;
+};
+
+

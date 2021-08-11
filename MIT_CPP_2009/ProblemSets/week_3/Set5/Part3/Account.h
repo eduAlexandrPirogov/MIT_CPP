@@ -8,8 +8,17 @@ class Account
       void Input();
       double Deposit(double amount);
       double withDraw(double amountToWithDraw);
-      double getBalance();
       void Output();
+      void setAccNumber(long _acc_number);
+      void setName(std::string _name);
+      void setType(char _type);
+      void setBalance(double _balance);
+   
+      long getAccNum();
+      std::string getName();
+      char getType(); 
+      double getBalance();
+   
    private:
       long acc_number;
       std::string name;
