@@ -1,0 +1,13 @@
+1. A base class's protected members can be accessed only in the base-class definition or in derived-class definitions;
+
+2. A base class's public members are accessible within that base class and anywhere that the program has a handle to an object of that base class or 
+to an object of one of its derived classes.
+
+3. A base class's protected access members have a level of protection between those of public and private.
+
+4. When deriving a class from a base class with public inheritance, public memberrs of the base
+class become public members of the derived class, and protected members of the base class
+become protected members of the derived class.
+
+5. WHen deriving a class from a base class with protected inheritance, public members of the base class become protected members of the derived class
+and protected members of the base class become protected members of the derived class.
