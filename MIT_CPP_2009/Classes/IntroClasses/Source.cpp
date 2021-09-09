@@ -7,8 +7,8 @@ int main(){
 
    SmallCar smallCar(1999, "Small Car", "Alex");
    smallCar.getModel();
-
+   
    Vehicle* v2 = &smallCar;
-   v2->getInfo();
+   v2->getInfo(); //Динамическое связывание.
    return 0;
 }
